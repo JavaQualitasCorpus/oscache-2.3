@@ -1,5 +1,10 @@
-exclude:
-- /bin/.*
-- /docs/.*
-- /etc/.*
-- /lib/.*
+- name: java
+  production:
+    exclude:
+      - /bin/.*
+      - /docs/.*
+      - /etc/.*
+      - /lib/.*
+  test:
+    include:
+      - /src/.*
