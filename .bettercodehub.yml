@@ -1,10 +1,7 @@
-- name: java
-  production:
-    exclude:
-      - /bin/.*
-      - /docs/.*
-      - /etc/.*
-      - /lib/.*
-  test:
-    include:
-      - /src/.*
+exclude:
+  - /bin/.*
+  - /docs/.*
+  - /etc/.*
+  - /lib/.* 
+include:
+  - /src/.*
