@@ -1,10 +1,5 @@
 component_depth: 1
 languages:
 - java
-exclude:
-- /bin/.*
-- /docs/.*
-- /etc/.*
-- /lib/.* 
 include:
 - /src/.*
